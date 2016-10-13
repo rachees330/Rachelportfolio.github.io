@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Div Tag Template</title>
+	<style>
+		body {
+			background: silver;
+			font: 100% Arial, Helvetica, sans-serif;
+		}
+		h1 {
+			font: 300% Arial, Helvetica, sans-serif;
+			color: charcoal;
+		}
+		h2 {
+			font: 200% Arial, Helvetica, sans-serif;
+			color: grey;
+		}
+		p {
+			font: 100% Arial, Helvetica, sans-serif;
+			color: grey;
+		}
+		#wrapper {
+			width: 1100px;
+			margin: 0 auto;
+			padding: 0 50px;
+			text-align: left;
+			position: relative;
+		}
+	header#mainHeader {
+			height: 185px;
+			background: url(images/logo.png) no-repeat 25px center;
+			padding: 0 75px 0 300px;
+			position: relative;
+			border-bottom: 2px solid #7f7f7f;
+			margin-bottom:16px;
+		}
+		header#mainHeader div{
+			margin-top: 16px;
+		}
+		header#mainHeader ul{
+			list-style: none;
+			float: left;
+		}
+		header#mainHeader ul li {
+			float: left;
+		}
+		header#mainHeader ul li a {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color: #000;
+			padding: 0 20px;
+			border-right: 1px solid black;
+			text-decoration: none;
+		}
+		header#mainHeader ul li a.last{
+			border:none;
+		}
+		header#mainHeader ul li a:hover{
+			color: #c00000;
+		}
+		
+		section#content {
+			float: left;
+			width: 600px;
+			padding: 0 10px 0 25px;
+			margin-bottom: 10px;
+			border-right: 1px solid #7f7f7f;
+		}
+		
+		section#content p {
+			color: #666;
+			line-height: 1.6;
+			margin-bottom: 10px;
+		}
+		
+		aside#hobbies {
+			font-size: 90%;
+			float: right;
+			width: 450px;
+			margin-bottom: 20px;
+		}
+		
+		footer#pageFooter {
+			clear: both;
+			border-top: 2px solid #7f7f7f;
+			padding: 20px;
+		}
+		
+		footer#pageFooter p {
+			text-align: center;
+			font-style: italic;
+			margin-bottom: 10px;
+			color: #666;
+		}
+		
+			
+		
+	</style>
+</head>
+
+<body>
+
+<!-- Page Content wrapper -->
+<div id="wrapper">
+
+	<!-- Page Header - Logo, Title, Links -->
+	<header id="mainHeader">
+	
+		<h1>Stuck in Love</h1>
+		<h2>The Best Movie</h2>
+		<!-- site Navigation links -->
+		<div id="mainNav">
+			<ul id="pages">
+				<li>
+					<a href="index.html">Home Page</a>	
+				</li>
+			</ul>
+		</div><!-- end Navigation links -->
+
+	</header><!-- end header -->
+	
+	<!-- Section Content - Project and Assignments -->
+	<section id="content">
+		
+		<h1>Best Movie</h1>
+		<h2>Why I like the movie:</h2>
+		<p> Stuck in Love is my favorite movie because the director did an amazing job weaving three story lines together. Also, this movie is one of the few that makes everyone laugh and cry multiple times throughout the hour and 37 minutes.
+		</p>
+		<h2>Favorite actor:</h2>
+		<ul>
+		<p>In this movie, my favorite actress would have to be Lily Collins because she is very convincing in her role as a college student, and portrays the part perfectly.</p>
+		</ul>
+		
+	</section><!-- end Conent -->
+
+		<!-- Aside Content - Hobbies & Interests -->
+	<aside id="hobbies">
+		<p><iframe width="560" height="315" src="https://www.youtube.com/embed/IRYUglifAvg" frameborder="0" allowfullscreen></iframe></p>
+		<p>
+			<img src="images/movie.jpg"/ width="400" height="300">
+		</p>
+	</aside><!-- end Hobbies -->
+	
+	<!-- Footer Content -->
+	<footer id="pageFooter">
+		<p><a href="https://en.wikipedia.org/wiki/Stuck_in_Love">click to read more about the movie</a></p>
+	</footer><!-- end Footer -->
+
+</div><!-- end Wrapper -->
+
+
+</body>
+
+</html>
